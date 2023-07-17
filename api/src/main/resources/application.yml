@@ -1,0 +1,18 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: -1
+      max-request-size: -1
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: life-stream
+      username: root
+      password: rootpassword
+      authentication-database: admin
+
+amazonProperties:
+  accessKey: 
+  secretKey: 
+  bucketName: life-stream-bucket
